@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AnimeSyncX — My Edits</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;background:#070707;color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+}
+header{
+  padding:28px 6%;border-bottom:1px solid #252525;
+  background:#050505;
+}
+.brand{font-size:24px;font-weight:800}
+.brand span{color:#ff2028}
+.sub{color:#888;font-size:12px;margin-top:5px}
+main{width:min(1100px,90%);margin:35px auto}
+.title{color:#ff2028;font-size:12px;font-weight:800;letter-spacing:1px}
+h1{font-size:32px;margin:5px 0 25px}
+.grid{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:20px;
+}
+.card{
+  background:#101010;border:1px solid #303030;border-radius:8px;
+  overflow:hidden;
+}
+.card video{
+  display:block;width:100%;aspect-ratio:16/9;
+  background:#050505;
+}
+.info{padding:13px 15px}
+.info h2{font-size:15px;margin:0}
+.info p{font-size:10px;color:#777;margin:5px 0 0}
+@media(max-width:650px){
+  main{width:calc(100% - 28px);margin:25px auto}
+  .grid{grid-template-columns:1fr;gap:15px}
+  h1{font-size:27px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">Anime<span>SyncX</span></div>
+  <div class="sub">MY ANIME EDITS</div>
+</header>
+
+<main>
+  <div class="title">MY WORK</div>
+  <h1>MY <span style="color:#ff2028">EDITS</span></h1>
+
+  <div class="grid">
+
+    <article class="card">
+      <video controls preload="metadata">
+        <source src="videos/edit1.mp4" type="video/mp4">
+      </video>
+      <div class="info"><h2>Edit 01</h2><p>Anime Edit</p></div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata">
+        <source src="videos/edit2.mp4" type="video/mp4">
+      </video>
+      <div class="info"><h2>Edit 02</h2><p>Anime Edit</p></div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata">
+        <source src="videos/edit3.mp4" type="video/mp4">
+      </video>
+      <div class="info"><h2>Edit 03</h2><p>Anime Edit</p></div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata">
+        <source src="videos/edit4.mp4" type="video/mp4">
+      </video>
+      <div class="info"><h2>Edit 04</h2><p>Anime Edit</p></div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata">
+        <source src="videos/edit5.mp4" type="video/mp4">
+      </video>
+      <div class="info"><h2>Edit 05</h2><p>Anime Edit</p></div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata">
+        <source src="videos/edit6.mp4" type="video/mp4">
+      </video>
+      <div class="info"><h2>Edit 06</h2><p>Anime Edit</p></div>
+    </article>
+
+  </div>
+</main>
+</body>
+</html>
